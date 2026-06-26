@@ -28,12 +28,12 @@ O NotebookLM foi alimentado com fontes de alta credibilidade regulatória e font
  * [B3 - Listagem de FIIs Ativos](https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/fundos-de-investimentos/fii/fiis-listados/)
 
 ### Conteúdo Audiovisual (YouTube)
-* [Manual da Evolução* - Investir em RENDA FIXA ou RENDA VARIÁVEL?](https://youtu.be/9T6OOSRWSZI?si=FyzFbir1LcR4JKHJ)
-* [Manual do Brasil* - O QUE É RENDA FIXA E RENDA VARIÁVEL?](https://youtu.be/bPlEZH3wwfU?si=DrstkZnl1HZ3aTrJ
+* [Manual da Evolução - Investir em RENDA FIXA ou RENDA VARIÁVEL?](https://youtu.be/9T6OOSRWSZI?si=FyzFbir1LcR4JKHJ)
+* [Manual do Brasil - O QUE É RENDA FIXA E RENDA VARIÁVEL?](https://youtu.be/bPlEZH3wwfU?si=DrstkZnl1HZ3aTrJ
 )
-* [Os Economistas Podcast* - Renda Fixa vs Renda Variável: por onde começar?](https://youtu.be/-3_K1S7uj7I?si=rrvM5bDqjZffXRv6)
-* [Diversa Investimentos* - Renda fixa ou renda variável: qual faz sentido pra você?](https://youtu.be/mHmHEtgbafg?si=kkAmCU-y4DroMXwL)
-* [MindSet* - O Investidor Inteligente (Benjamin Graham Audiobook)](https://youtu.be/fMo_xntieUo?si=IwmIcEXkF5bgQsy8)
+* [Os Economistas Podcast - Renda Fixa vs Renda Variável: por onde começar?](https://youtu.be/-3_K1S7uj7I?si=rrvM5bDqjZffXRv6)
+* [Diversa Investimentos - Renda fixa ou renda variável: qual faz sentido pra você?](https://youtu.be/mHmHEtgbafg?si=kkAmCU-y4DroMXwL)
+* [MindSet - O Investidor Inteligente (Benjamin Graham Audiobook)](https://youtu.be/fMo_xntieUo?si=IwmIcEXkF5bgQsy8)
 
 
 ##  Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
@@ -42,7 +42,7 @@ Para extrair o melhor conhecimento das fontes, foram testadas diferentes técnic
 
 ### Teste 1: Prompt Direto / Literal
   **Prompt:** "Com base exclusivamente nas fontes fornecidas, explique a diferença fundamental entre Renda Fixa e Renda Variável."
-  **Resposta:** *(A diferença fundamental entre a **Renda Fixa** e a **Renda Variável** reside na existência, ou não, de regras pré-estabelecidas para a remuneração no momento da aplicação e na natureza do relacionamento entre o investidor e o emissor do título.
+* **Resposta:** (A diferença fundamental entre a **Renda Fixa** e a **Renda Variável** reside na existência, ou não, de regras pré-estabelecidas para a remuneração no momento da aplicação e na natureza do relacionamento entre o investidor e o emissor do título.
 
 Abaixo, detalham-se os pontos de distinção com base nas fontes:
 
@@ -68,7 +68,8 @@ Abaixo, detalham-se os pontos de distinção com base nas fontes:
 *   **Referências Citadas:** *(Liste as citações que o NotebookLM gerou)*
 
 ### Teste 2: Prompt Baseado em Persona e Tabela
- **Prompt:** "Atue como um analista financeiro didático focado em investidores iniciantes. Crie uma tabela comparativa entre um CDB (protegido pelo FGC) e um Fundo Imobiliário (FII negociado na B3). A tabela deve comparar: Tipo de Renda, Fator de Risco, Como rende o dinheiro e se possui garantia. Use apenas as informações contidas nos documentos e vídeos enviados."  **Resposta:** *(Como analista financeiro, preparei esta tabela comparativa para ajudar você, investidor iniciante, a compreender as diferenças fundamentais entre um título de dívida bancária e um fundo focado em imóveis:
+ **Prompt:** "Atue como um analista financeiro didático focado em investidores iniciantes. Crie uma tabela comparativa entre um CDB (protegido pelo FGC) e um Fundo Imobiliário (FII negociado na B3). A tabela deve comparar: Tipo de Renda, Fator de Risco, Como rende o dinheiro e se possui garantia. Use apenas as informações contidas nos documentos e vídeos enviados." 
+* **Resposta:** (Como analista financeiro, preparei esta tabela comparativa para ajudar você, investidor iniciante, a compreender as diferenças fundamentais entre um título de dívida bancária e um fundo focado em imóveis:
 
 | Característica | CDB (Certificado de Depósito Bancário) | Fundo Imobiliário (FII) |
 | :--- | :--- | :--- |
@@ -86,7 +87,7 @@ Abaixo, detalham-se os pontos de distinção com base nas fontes:
 
 ### Teste 3: Prompt "Chain-of-Thought" Simplificado (Resolução de Problemas)
  **Prompt:** "Um iniciante quer investir R$ 1.000,00, mas tem muito medo de perder dinheiro. Com base nas fontes, crie um passo a passo seguro para ele. Explique o que é mais seguro (Tesouro Direto ou CDB com FGC) e justifique usando os conceitos de risco e reserva de emergência."
- **Resposta:** *(Para um iniciante que possui **R$ 1.000,00** e prioriza a segurança total do patrimônio, o caminho mais recomendado pelas fontes é focar exclusivamente na **Renda Fixa conservadora**.
+* **Resposta:** *(Para um iniciante que possui **R$ 1.000,00** e prioriza a segurança total do patrimônio, o caminho mais recomendado pelas fontes é focar exclusivamente na **Renda Fixa conservadora**.
 
 Abaixo, apresento um passo a passo seguro e a justificativa sobre qual investimento oferece a maior proteção para o seu capital.
 
